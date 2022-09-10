@@ -1,0 +1,11 @@
+server:
+  port: 8081
+
+travel:
+  main:
+    api: 'https://api.travelpayouts.com/aviasales/v3'
+
+spring:
+  cache:
+    caffeine:
+      spec: maximumSize=50,expireAfterAccess=12h
